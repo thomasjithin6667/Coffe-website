@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+     list-style: none;
+    text-decoration: none;
+
+
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.532),rgba(164, 151, 151, 0));
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    backdrop-filter:blur(6px);
+    border:1px solid rgba(255, 255, 255, 0.318);
+    z-index: 20;
+}
+.header .navitems .navi li{
+    display: inline-block;
+    padding: 10px  ;
+    
+    
+}
+.header .navitems .navi li a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+   
+
+}
+.header .mybas a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+   
+
+}
+.header .searchbut button{
+   border: none;
+   border-radius: 120px;
+   padding: 10px;
+   background-color: rgba(0, 0, 0, 0);
+   font-size: 20px;
+   position: absolute;
+   right: 410px;
+   top: 28px;
+   color: rgb(135, 135, 135);
+   
+   
+   
+
+}
+.header .searchbut input{
+   
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.299);
+    background-color: rgba(0, 128, 0, 0);
+    width: 280px;
+    
+
+}
+
+.mainpage
+{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+    background-image: url(./media/mainpage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainpage .maintext h1{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    left: 40px;
+    top: 120px;
+
+}
+.mainpage .submaintext p{
+    position: absolute;
+    top:300px ;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    width: 1000px;
+    font-weight: 300;
+    
+    
+}
+.mainpage  .button{
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(24, 102, 63);
+    padding: 20px;
+    position: absolute;
+    left: 40px;
+    top: 500px;
+}
+.mainpage  .button a{
+    color: white;
+}
+
+.types{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(234, 227, 218);
+    position: relative;
+   
+}
+.types .area1{
+
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+    
+   
+    background-color:  rgb(24, 102, 63);
+}
+.types .area1 .intro{
+    width: 550px;
+    height: 60px;
+  
+    
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    backdrop-filter:blur(6px);
+    border:1px solid rgba(255, 255, 255, 0.318);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    transition: 1s;
+   
+}
+.types .area1 .intro p{
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 200;
+    margin-left: 30px;
+    width: 500px; 
+}
+.types .area1 .intro h1{
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+.types .area1 .card:hover{
+    cursor: pointer;
+    
+}
+.types .area1 .card:hover .intro{
+    height: 360px;
+    bottom: 0px;
+}
+.types .area1 .card:hover .intro p{
+    opacity: 1;
+    visibility: visible;
+}
+#beans{
+    transition: 1s;
+
+}
+.types .area1 .card:hover #beans{
+    transform: scale(1.5) ;
+    transition: 1s;
+}
+
+.types .area2{
+    position: absolute;
+    top: 90px;
+    left: 700px;
+    
+    width: 730px;
+    height: 250px;
+    overflow: hidden;
+   
+    background-color:  rgb(24, 102, 63);
+}
+
+.types .area2 .intro{
+    width: 730px;
+    height: 60px;
+  
+    
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    backdrop-filter:blur(6px);
+    border:1px solid rgba(255, 255, 255, 0.318);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    transition: 1s;
+   
+}
+.types .area2 .intro p{
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 200;
+    margin-left: 30px;
+    width: 700px; 
+}
+.types .area2 .intro h1{
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+.types .area2 .card:hover{
+    cursor: pointer;
+    
+}
+.types .area2 .card:hover .intro{
+    height: 200px;
+    bottom: 0px;
+}
+.types .area2 .card:hover .intro p{
+    opacity: 1;
+    visibility: visible;
+}
+#beans{
+    transition: 1s;
+
+}
+.types .area2 .card:hover #beans{
+    transform: scale(1.5) ;
+    transition: 1s;
+}
+
+.types .area3{
+    position: absolute;
+    top: 390px;
+    left: 700px;
+    
+    width: 430px;
+    height: 250px;
+    overflow: hidden;
+   
+    background-color:  rgb(24, 102, 63);
+}
+
+.types .area3 .intro{
+    width: 430px;
+    height: 60px;
+  
+    
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    backdrop-filter:blur(6px);
+    border:1px solid rgba(255, 255, 255, 0.318);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    transition: 1s;
+   
+}
+.types .area3 .intro p{
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 200;
+    margin-left: 30px;
+    width: 380px; 
+}
+.types .area3 .intro h1{
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+.types .area3 .card:hover{
+    cursor: pointer;
+    
+}
+.types .area3 .card:hover .intro{
+    height: 200px;
+    bottom: 0px;
+}
+.types .area3 .card:hover .intro p{
+    opacity: 1;
+    visibility: visible;
+}
+#beans{
+    transition: 1s;
+
+}
+.types .area3 .card:hover #beans{
+    transform: scale(1.5) ;
+    transition: 1s;
+}
+#typesh{
+    color: white;
+    margin-left: 10px;
+}
+
+.types .area4{
+    position: absolute;
+    top: 390px;
+    left: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    width: 250px;
+    height: 250px;
+   
+    background-color:  rgb(24, 102, 63);
+}
+.area4 p{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 100px;
+    color: white;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 1s;
+    
+}
+
+.area4 p:hover{
+    transform: scale(2);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.brands{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+}
+.brands .back1{
+    background-color: rgb(96, 80, 66);
+    position: absolute;
+    width: 1520px;
+    height: 350px;
+    
+   
+}
+.brands .back2{
+    background-color: rgb(234, 227, 218);
+    position: absolute;
+    top: 350px;
+    width: 1520px;
+    height: 450px;
+    
+   
+}
+.branditems{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+  
+}
+
+.brands .branditems .brand1{
+    
+    width: 300px;
+    height: 500px;
+    background-color:  rgb(255, 255, 255);
+    z-index: 1;
+    margin-top: 120px;
+    transition: 1s;
+    text-align: center;
+   
+     
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    
+   
+}
+.brands .branditems .brand1:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    backdrop-filter:blur(6px);
+    border:1px solid rgba(255, 255, 255, 0.318);
+    background-color: rgba(240, 248, 255, 0.145);
+
+}
+.brands .branditems .brand1 .starbucks{
+    padding: 30px;
+}
+.brands .branditems .brand2{
+    
+    width: 300px;
+    height: 500px;
+    background-color:   rgb(255, 255, 255);
+    z-index: 1;
+    z-index: 1;
+    margin-top: 120px;
+    text-align: center;
+    transition: 1s;
+   
+     
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+}
+.brands .branditems .brand2 .starbucks{
+    padding: 30px;
+}
+.brands .branditems .brand2:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    backdrop-filter:blur(6px);
+    border:1px solid rgba(255, 255, 255, 0.318);
+    background-color: rgba(240, 248, 255, 0.145);
+}
+.brands .branditems .brand2 .starbucks{
+    padding: 30px;
+}
+.brands .branditems .brand3{
+    
+    width: 300px;
+    height: 500px;
+    background-color:   rgb(255, 255, 255);
+    z-index: 1;
+    z-index: 1;
+    margin-top: 120px;
+    text-align: center;
+    transition: 1s;
+   
+     
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+}
+.brands .branditems .brand3 .starbucks{
+    padding: 30px;
+}
+.brands .branditems .brand3:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    backdrop-filter:blur(6px);
+    border:1px solid rgba(255, 255, 255, 0.318);
+    background-color: rgba(240, 248, 255, 0.145);
+
+}
+.brands .branditems .brand3 .starbucks{
+    padding: 30px;
+}
+.brands .branditems .brand4{
+    
+    width: 300px;
+    height: 500px;
+    background-color:   rgb(255, 255, 255);
+    z-index: 1;
+    z-index: 1;
+    margin-top: 120px;
+    text-align: center;
+    transition: 1s;
+   
+     
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+}
+.brands .branditems .brand4 .starbucks{
+    padding: 30px;
+}
+.brands .branditems .brand4:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: 0 2px 30px 0px rgba(114, 106, 106, 0.397);
+    backdrop-filter:blur(6px);
+    border:1px solid rgba(255, 255, 255, 0.318);
+    background-color: rgba(240, 248, 255, 0.145);
+
+}
+.brands .branditems .brand4 .starbucks{
+    padding: 30px;
+}
+.brands h1{
+    font-weight: 400;
+    color:  rgb(24, 102, 63);;
+}
+.brands p{
+    font-weight: 200;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.gallery{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(234, 227, 218);
+    position: relative;
+}
+.photos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 90px;
+    
+    
+}
+.photos1{
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.gallery .photobooth .photos .img{
+    width: 280px;
+    height: 280px;
+    background-color:  rgb(255, 255, 255);
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.gallery .photobooth .photos1 .img{
+    width: 280px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.gallery .photobooth .photos img:hover{
+    
+    transform: scale(1.5);
+    transition: .5s;
+}
+.gallery .photobooth .photos1 img:hover{
+    
+    transform: scale(1.5);
+    transition: .5s;
+}
+.gallery .photobooth .photos img{
+    
+   
+    transition: .5s;
+}
+.gallery .photobooth .photos1 img{
+    
+    
+    transition: .5s;
+}
+.gallery .photobooth .photos .img p{ 
+    color: black;
+    font-family: 'Playfair Display', serif;
+    
+}
+.gallery .photobooth .photos1 .img p{ 
+    color: black;
+    font-family: 'Playfair Display', serif;
+    
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(56, 141, 98);
+    position: relative;
+}
+.contact .map{
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+.contact .contactus{
+    position: absolute;
+    left:1200px ;
+    top: 0;
+    width: 320px;
+    height: 745px;
+    background-color: rgb(24, 102, 63);
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+   
+
+.contact .contactus .submit input,.contact .contactus .submit textarea,.seven .contactus  .submit button{
+    margin-left: 20px;
+    padding: 10px;
+    width:250px;
+}
+.contactus h2{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    color: azure;
+}
+.contact .contactus  .submit button{
+    background-color:rgb(114, 106, 106);
+    color:  rgb(255, 255, 255);
+    width: 270px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    padding: 7px;
+}
+.contact .contactus  .submit button:hover{
+    background-color:rgb(255, 255, 255);
+    color:rgb(24, 102, 63);
+    border: none;
+}
+.con{
+    
+    background-size:contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.search .con form{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+.search .con form{
+    background: white;
+    width: 600px;
+    height: 50px;
+    display:flex;
+}
+.search .con form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.search .con form button{
+    background: rgb(114, 106, 106);
+    padding: 10px 50px;
+    border: none;
+  
+    color: white;
+}
+
+#foot{
+    margin-left: 30px;
+    font-size: 10px;
+}
+.foot2{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: small;
+}
+.foot2 a{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: small;
+    color: black;
+}
